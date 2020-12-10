@@ -50,7 +50,7 @@ p {
     font-size: 16px;
 }
 
-.hero {
+.meeting {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -173,17 +173,8 @@ p {
     max-height: 200px;
 }
 
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
+/* turned .online-reputation-management h2, .search-engine-optimization h2, .social-media-marketing h2 into one h2 tag since they all did the same thing */
+h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -195,6 +186,7 @@ p {
     text-align: center;
 }
 
-.footer h2 {
+/* delete? */
+/* .footer h2 {
     font-size: 20px;
-}
+} */
