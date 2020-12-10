@@ -34,7 +34,8 @@ p {
     color: #d9dcd6;
 }
 
-.header div {
+/* changed div to nav */
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -42,11 +43,13 @@ p {
     font-size: 20px;
 }
 
-.header div ul {
+/* changed div to nav */
+.header nav ul {
     list-style-type: none;
 }
 
-.header div ul li {
+/* changed div to nav */
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -70,7 +73,7 @@ p {
     margin-left: 25px;
 }
 
-.content {
+.section {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
@@ -116,7 +119,7 @@ p {
     max-height: 200px;
 }
 
-.benefits {
+.aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -177,8 +180,6 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
-
 
 /* turned .online-reputation-management h2, .search-engine-optimization h2, .social-media-marketing h2 into one h2 tag since they all did the same thing */
 h2 {
