@@ -8,6 +8,16 @@ body {
     background-color: #d9dcd6;
 }
 
+/* moved up a and p tags since they're commonly used tags */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -41,15 +51,6 @@ body {
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
 .meeting {
     height: 800px;
     width: 100%;
@@ -75,7 +76,7 @@ p {
     margin-left: 20px;
 }
 
-/* grouped tags used inside of content to be easier to find and edit */
+/* grouped up tags used inside of content to be easier to find and edit */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
