@@ -2,7 +2,7 @@
 
 ![Horiseon](assets/images/Horiseon.png)
 
-Nothing changed from the user's perspective. A more descriptive title was added. Nondescriptive divs were renamed into nav, section, and article. Redundant elements in style.ccs were consolidated to make future changes easier. Elements were reorganized in style.ccs by when they are used in the html. Removed an unused footer h2 element and added comments to make finding parts of the page easier. Alt attributes were added to images.
+Nothing changed from the user's perspective. A more descriptive title was added. Nondescriptive divs were renamed into nav, section, and article. Redundant elements in style.ccs were consolidated to make future changes easier. Elements were reorganized in style.ccs by when they are used in the html. Removed an unused footer h2 element and added comments to make finding parts of the page easier. Alt attributes were added to images. These changes were made for ease of use for the future of the website.
 
 ## Examples of changes
 
@@ -22,6 +22,7 @@ div changes:
             </ul>
         </nav>
 ```
+*div tag was changed into nav tag*
 
 element consolidation:
 ```
@@ -31,6 +32,7 @@ element consolidation:
     max-height: 200px;
 }
 ```
+*three separate elements were simplified*
 
 ## Built With
 
@@ -45,9 +47,8 @@ element consolidation:
 
 * Peter Ting
 
-- [Link to Portfolio Site](#)
 - [Link to Github](https://github.com/Pting1995)
-- [Link to LinkedIn](https://www.linkedin.com/)
+- [Link to LinkedIn](https://www.linkedin.com/in/pting002/)
 
 ## License
 
