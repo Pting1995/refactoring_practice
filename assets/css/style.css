@@ -10,11 +10,7 @@ body {
     background-color: #d9dcd6;
 }
 
-/* moved up a and p tags since they're commonly used tags */
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
+
 
 p {
     font-size: 16px;
@@ -28,6 +24,7 @@ p {
     color: #ffffff;
 }
 
+/* logo */
 .header h1 {
     display: inline-block;
     font-size: 48px;
@@ -37,7 +34,7 @@ p {
     color: #d9dcd6;
 }
 
-/* changed div to nav */
+/* navbar */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -46,18 +43,22 @@ p {
     font-size: 20px;
 }
 
-/* changed div to nav */
+/* navbar text color */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
 .header nav ul {
     list-style-type: none;
 }
 
-/* changed div to nav */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
-/* meeting */
+/* meeting picture */
 
 .meeting {
     height: 800px;
@@ -86,13 +87,13 @@ p {
     margin-left: 20px;
 }
 
-/* turned .online-reputation-management h2, .search-engine-optimization h2, .social-media-marketing h2 into one h2 tag since they all did the same thing */
+
 h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-/* grouped up tags used inside of content to be easier to find and edit */
+/* article containers */
 .search-engine-optimization,
 .online-reputation-management,
 .social-media-marketing {
@@ -104,6 +105,7 @@ h2 {
     color: #ffffff;
 }
 
+/* article images */
 .search-engine-optimization img,
 .online-reputation-management img,
 .social-media-marketing img {
@@ -111,7 +113,6 @@ h2 {
 }
 
 /* aside */
-
 .aside {
     margin-right: 20px;
     padding: 20px;
@@ -123,7 +124,7 @@ h2 {
     background-color: #2589bd;
 }
 
-/* grouped up benefit-lead */
+/* aside sections */
 .benefit-lead,
 .benefit-brand,
 .benefit-cost {
@@ -154,4 +155,3 @@ h2 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-/* deleted footer h2 since it wasnt being used */
