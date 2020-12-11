@@ -1,3 +1,5 @@
+/* general tags */
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -18,6 +20,7 @@ p {
     font-size: 16px;
 }
 
+/* header tags */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -54,6 +57,8 @@ p {
     margin-left: 25px;
 }
 
+/* meeting */
+
 .meeting {
     height: 800px;
     width: 100%;
@@ -73,39 +78,23 @@ p {
     margin-left: 25px;
 }
 
+/* section info */
+
 .section {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* turned .online-reputation-management h2, .search-engine-optimization h2, .social-media-marketing h2 into one h2 tag since they all did the same thing */
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
 /* grouped up tags used inside of content to be easier to find and edit */
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
+.search-engine-optimization,
+.online-reputation-management,
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -115,9 +104,13 @@ p {
     color: #ffffff;
 }
 
+.search-engine-optimization img,
+.online-reputation-management img,
 .social-media-marketing img {
     max-height: 200px;
 }
+
+/* aside */
 
 .aside {
     margin-right: 20px;
@@ -181,11 +174,7 @@ p {
     max-width: 150px;
 }
 
-/* turned .online-reputation-management h2, .search-engine-optimization h2, .social-media-marketing h2 into one h2 tag since they all did the same thing */
-h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
+/* footer */
 
 .footer {
     padding: 30px;
