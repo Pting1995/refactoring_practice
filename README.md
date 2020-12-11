@@ -41,7 +41,7 @@ element consolidation:
 
 ## Deployed Link
 
-* [See Live Site](https://pting1995.github.io/refactoring_practice/)
+* [See Live Site](https://github.com/Pting1995/refactoring_project)
 
 ## Authors
 
